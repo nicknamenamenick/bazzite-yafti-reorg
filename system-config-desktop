@@ -1,0 +1,10 @@
+- add-user-to-input-group                           # Add user to "input" group required by certain controller drivers
+- bazzite-cli                                       # Bazzite CLI mod for bluefin style cli-bing (modfied copy of https://github.com/ublue-os/bluefin/blob/faf7303afa6f8d6e747940c1d1ba63c6d2d43c80/system_files/shared/usr/libexec/ublue-bling.sh#L62)
+- enable-displaylink                                # Enable support for DisplayLink
+- enable-tailscale                                  # Enable support for Tailscale
+- install-coolercontrol                             # Install CoolerControl, a GUI for viewing all your system's sensors and for creating custom fan and pump profiles based on any available temperature sensor28
+- install-openrazer                                 # Install OpenRazer for Razer gaming hardware
+- install-openrgb                                   # Install OpenRGB (https://openrgb.org/)
+- install-opentabletdriver                          # Install OpenTabletDriver, an open source, cross-platform, user-mode tablet driver
+- install-oversteer                                 # Install Oversteer for Logitech steering wheels
+- install-wootility                                 # Install Wootility for configuring Wooting Keyboards
