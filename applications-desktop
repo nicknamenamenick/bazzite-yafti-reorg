@@ -5,6 +5,5 @@
 - install-obs-studio-portable                       # Install obs-studio-portable from wimpysworld, which bundles an extensive collection of 3rd party
 - install-resilio-sync                              # Install Resilio Sync, a file synchronization utility powered by BitTorrent
 - install-scrcpy                                    # Install scrcpy, a utility that mirrors Android devices (video and audio) connected via USB or over TCP/IP
-- install-steamcmd                                  # Install SteamCMD (https://developer.valvesoftware.com/wiki/SteamCMD)
 - setup-sunshine ACTION=""                          # Setup and configure Sunshine Game Streaming host
 - install-resolve ACTION=""                         # Install/update DaVinci Resolve, a closed-source video editing utility
