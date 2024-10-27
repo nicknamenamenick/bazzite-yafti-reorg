@@ -127,4 +127,4 @@ screens:
       - "Reboot now":
           run: systemctl reboot
       description: |
-        Thank you for trying Bazzite. Please reboot to apply changes made by this setup utility.
+        Please reboot to apply changes made by this setup utility.
