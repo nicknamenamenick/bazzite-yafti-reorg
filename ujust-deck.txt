@@ -1,0 +1,87 @@
+ - add-user-to-input-group                           # Add user to "input" group required by certain controller drivers
+ - bazzite-cli                                       # Bazzite CLI mod for bluefin style cli-bing (modfied copy of https://github.com/ublue-os/bluefin/blob/faf7303afa6f8d6e747940c1d1ba63c6d2d43c80/system_files/shared/usr/libexec/ublue-bling.sh#L62)
+ - benchmark                                         # Run a one minute system benchmark
+ - bios                                              # Boot into this device's BIOS/UEFI screen
+ - changelogs                                        # Show the changelog
+ - changelog                                         # alias for `changelogs`
+ - check-idle-power-draw                             # Measure Idle Power Draw
+ - check-local-overrides                             # Check for local overrides
+ - clean-system                                      # Clean up old up unused podman images, volumes, flatpak packages and rpm-ostree content
+ - configure-auto-power-profile ACTION="help"        # Change automatic power profile switching behavior
+ - configure-broadcom-wl ACTION="prompt"             # Configure Broadcom WL driver (Enabling WL breaks numerous other Wi-Fi adapters)
+ - broadcom-wl ACTION="prompt"                       # alias for `configure-broadcom-wl`
+ - configure-grub ACTION=""                          # Configure grub bootmenu visibility and fix duplicate entries
+ - configure-nvidia ACTION="prompt"                  # Configure the Nvidia driver
+ - nvidia ACTION="prompt"                            # alias for `configure-nvidia`
+ - configure-nvidia-optimus ACTION="prompt"          # Configure Nvidia Optimus
+ - configure-watchdog ACTION=""                      # Configure watchdog (default: enabled, recovers the system in the event of a malfunction)
+ - device-info                                       # Gather device info to a pastebin
+ - disable-bios-updates                              # Disable Steam Deck BIOS updates
+ - disable-firmware-updates                          # Disable Steam Deck controller firmware updates
+ - disable-ryzenadj-max-performance                  # disables ryzenadj --max-performance on AC power
+ - disable-sdgyrodsu                                 # Disable SDGyroDSU
+ - distrobox-assemble CONTAINER="prompt" ACTION="create" FILE="/etc/distrobox/distrobox.ini" # Create distroboxes from a defined manifest
+ - assemble CONTAINER="prompt" ACTION="create" FILE="/etc/distrobox/distrobox.ini" # alias for `distrobox-assemble`
+ - distrobox-new IMAGE="prompt" NAME="prompt" HOMEDIR="" # Create a new custom distrobox
+ - distrobox IMAGE="prompt" NAME="prompt" HOMEDIR="" # alias for `distrobox-new`
+ - enable-deck-bios-firmware-updates                 # Enable BIOS & Firmware update services for the Steam Deck
+ - enable-displaylink                                # Enable support for DisplayLink
+ - enable-ryzenadj-max-performance                   # runs ryzenadj --max-performance on AC power
+ - enable-tailscale                                  # Enable support for Tailscale
+ - enroll-secure-boot-key                            # Enroll Nvidia driver & KMOD signing key for secure boot - Enter password "universalblue" if prompted
+ - fix-gmod                                          # Patch GMod's 64-bit beta to work properly on Linux (https://github.com/solsticegamestudios/GModCEFCodecFix)
+ - patch-gmod                                        # alias for `fix-gmod`
+ - fix-proton-hang                                   # Kills all processes related to wine and proton. This forces it to restart next time you launch the game (you might still have to press STOP in steam to kill the game binary)
+ - fix-reset-steam                                   # Reset the Steam folder back to a fresh state
+ - get-emudeck                                       # Install EmuDeck (https://www.emudeck.com/)
+ - install-adwaita-for-steam                         # Install Adwaita-for-Steam theme for CSS Loader (https://github.com/tkashkin/Adwaita-for-Steam)
+ - install-boxtron                                   # Install Boxtron, a Steam Play compatibility tool to run DOS games using native Linux DOSBox
+ - install-coolercontrol                             # Install CoolerControl, a GUI for viewing all your system's sensors and for creating custom fan and pump profiles based on any available temperature sensor28
+ - install-deckhd-bios                               # Install Deck HD BIOS
+ - install-emudeck                                   # Install EmuDeck (https://www.emudeck.com/)
+ - install-hhd-controller-glyph-theme                # Install Handheld Controller Glyphs theme for hhd & CSS Loader (https://github.com/victor-borges/handheld-controller-glyphs)
+ - install-lact                                      # Install LACT for overclocking & undervolting AMD GPUs
+ - install-obs-studio-portable                       # Install obs-studio-portable from wimpysworld, which bundles an extensive collection of 3rd party plugins
+ - install-openrazer                                 # Install OpenRazer for Razer gaming hardware
+ - install-openrgb                                   # Install OpenRGB (https://openrgb.org/)
+ - install-opentabletdriver                          # Install OpenTabletDriver, an open source, cross-platform, user-mode tablet driver
+ - install-oversteer                                 # Install Oversteer for Logitech steering wheels
+ - install-resilio-sync                              # Install Resilio Sync, a file synchronization utility powered by BitTorrent
+ - install-resolve ACTION=""                         # Install/update DaVinci Resolve, a closed-source video editing utility
+ - install-resolve-studio ACTION=""                  # alias for `install-resolve`
+ - install-scrcpy                                    # Install scrcpy, a utility that mirrors Android devices (video and audio) connected via USB or over TCP/IP
+ - install-steamcmd                                  # Install SteamCMD (https://developer.valvesoftware.com/wiki/SteamCMD)
+ - get-steamcmd                                      # alias for `install-steamcmd`
+ - install-wootility                                 # Install Wootility for configuring Wooting Keyboards
+ - get-wootility                                     # alias for `install-wootility`
+ - logs-last-boot                                    # Show all messages from last boot
+ - logs-this-boot                                    # Show all messages from this boot
+ - post-gamescope-logs
+ - ptyxis-transparency opacity="0.95"                # Ptyxis terminal transparency
+ - regenerate-grub                                   # Regenerate GRUB config, useful in dual-boot scenarios where a second operating system isn't listed
+ - remove-luks-tpm-unlock                            # Disable automatic LUKS unlock via TPM
+ - restart-pipewire                                  # Restart pipewire
+ - restore-gnome-de-settings                         # Restore Bazzite customized DE settings
+ - restore-gnome-folders                             # Restore Bazzite customized applications folders
+ - restore-input-remapper                            # Re-enable input remapper feature on non-desktop images
+setup-decky ACTION                     # Install and configure Decky Loader (https://github.com/SteamDeckHomebrew/decky-loader) and plugins for alternative handhelds
+ - setup-distrobox-app CONTAINER="prompt"            # Install specialized application containers (like brew)
+ - setup-distrobox-git                               # Install or uninstall distrobox-git
+ - setup-luks-tpm-unlock                             # Enable automatic LUKS unlock via TPM
+ - setup-sunshine ACTION=""                          # Setup and configure Sunshine Game Streaming host
+ - setup-virtual-channels ACTION=""                  # Add virtual audio channels/sinks named Game, Voice, Browser and Music which you can split audio to using qpwgraph, helvum, carla or other pipewire patchbays for use in OBS and other use cases
+ - setup-virtual-surround ACTION=""                  # Setup a simple Virtual Surround 7.1 sink using the ASH Control Room 1 convolver file (you can change this yourself after setup)
+ - setup-virtualization ACTION=""                    # Setup and configure virtualization and vfio
+ - setup-waydroid ACTION=""                          # Launch Waydroid configuration helper
+ - configure-waydroid ACTION=""                      # alias for `setup-waydroid`
+ - switch-to-ext4                                    # Use EXT4 for SD Cards, allows use of SteamOS formatted SD cards
+ - toggle-nvk                                        # Switch between Nvidia image and NVK
+ - toggle-password-feedback                          # toggles password prompt feedback in terminal, where sudo password prompts will display asterisks when enabled
+ - toggle-updates ACTION="prompt"                    # Turn automatic updates on or off
+ - auto-update ACTION="prompt"                       # alias for `toggle-updates`
+ - toggle-user-motd                                  # Toggle display of the user-motd in terminal
+ - toolbox-assemble CONTAINER="prompt" ACTION="create" FILE="/etc/toolbox/toolbox.ini" # Create toolbox containers from a defined manifest (this spec will not be expanded)
+ - toolbox-new IMAGE="prompt" NAME="prompt"          # Create a new custom toolbox
+ - update                                            # Update system, flatpaks, and containers all at once
+ - upgrade                                           # alias for `update`
+

@@ -1,0 +1,11 @@
+- fix-gmod                                          # Patch GMod's 64-bit beta to work properly on Linux (https://github.com/solsticegamestudios/GModCEFCodecFix)
+- install-adwaita-for-steam                         # Install Adwaita-for-Steam theme for CSS Loader (https://github.com/tkashkin/Adwaita-for-Steam)
+- install-boxtron                                   # Install Boxtron, a Steam Play compatibility tool to run DOS games using native Linux DOSBox
+- setup-decky ACTION                                # Install and configure Decky Loader (https://github.com/SteamDeckHomebrew/decky-loader) and plugins for alternative handhelds
+- install-emudeck                                   # Install EmuDeck (https://www.emudeck.com/)
+- install-hhd-controller-glyph-theme                # Install Handheld Controller Glyphs theme for hhd & CSS Loader (https://github.com/victor-borges/handheld-controller-glyphs)
+- install-obs-studio-portable                       # Install obs-studio-portable from wimpysworld, which bundles an extensive collection of 3rd party
+- install-resilio-sync                              # Install Resilio Sync, a file synchronization utility powered by BitTorrent
+- install-scrcpy                                    # Install scrcpy, a utility that mirrors Android devices (video and audio) connected via USB or over TCP/IP
+- setup-sunshine ACTION=""                          # Setup and configure Sunshine Game Streaming host
+- install-resolve ACTION=""                         # Install/update DaVinci Resolve, a closed-source video editing utility
